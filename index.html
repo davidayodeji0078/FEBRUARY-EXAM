@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Frontend Development Practical</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1> Student Dashboard</h1>
+      <button class="theme-toggle" id="themeToggle">🌙</button>
+    </header>
+
+    <!-- Counter Section -->
+    <section>
+      <h2>Counter</h2>
+      <div class="counter-value" id="counter">0</div>
+      <div class="counter-controls">
+        <button class="btn" id="increment">+</button>
+        <button class="btn secondary" id="reset">Reset</button>
+        <button class="btn secondary" id="decrement">-</button>
+      </div>
+    </section>
+
+   <section>
+  <h2>Users</h2>
+  <button class="btn load-users" id="loadUsers">Load Users</button>
+  <div class="users-grid" id="usersGrid"></div>
+</section>
+
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
